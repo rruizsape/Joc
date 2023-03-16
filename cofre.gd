@@ -8,8 +8,7 @@ extends Area2D
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass
-	
+	pass # Replace with function body.
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -18,7 +17,5 @@ func _ready():
 
 
 func _on_cofre_body_entered(body):
-	$Label.visible = true
+	$Label3.visible = true
 	$Sprite.visible = false
-	get_tree().change_scene("res://Nivell 2.tscn")
-	

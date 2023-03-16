@@ -38,26 +38,6 @@ func _process(delta):
 
 
 
-func _on_cofre_bo_body_entered(body):
-	if body.name == "Personatge":
-		$"../cofre_bo".visible = false
-		$"../Label".visible = true
-		get_tree().change_scene("res://Nivell 2.tscn")
+
 		
 
-
-func _on_cofre2_body_entered(body):
-	$"../Label2".visible = true
-	$"../cofre2".visible = false
-
-func _on_cofre3_body_entered(body):
-	$"../Label3".visible = true
-	$"../cofre3".visible = false
-
-func _on_cofre4_body_entered(body):
-	$"../Label4".visible = true
-	$"../cofre4".visible = false
-
-func _on_cofre5_body_entered(body):
-	$"../Label5".visible = true
-	$"../cofre5".visible = false
