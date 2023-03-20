@@ -22,3 +22,4 @@ func _on_cofre_body_entered(body):
 	$Sprite.visible = false
 	get_tree().change_scene("res://Nivell 2.tscn")
 	
+	

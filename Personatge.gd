@@ -9,7 +9,7 @@ var moviment = Vector2.ZERO
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	rotation_degrees = 0
-	scale = Vector2(1,1)
+	scale = Vector2(0.5,0.5)
 	
 	
 # Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -35,9 +35,3 @@ func _process(delta):
 	
 	moviment = desplacament.normalized() * velocitat
 	move_and_slide(moviment)
-
-
-
-
-		
-

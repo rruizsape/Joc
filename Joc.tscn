@@ -170,7 +170,7 @@ polygon = PoolVector2Array( -235.308, 86.4905, -170.84, 86.4905, -170.84, 30.060
 position = Vector2( 282.584, 208.843 )
 
 [node name="Personatge" parent="." instance=ExtResource( 1 )]
-position = Vector2( 758, 81 )
+position = Vector2( 1010, 945 )
 
 [node name="cofre2" parent="." instance=ExtResource( 4 )]
 position = Vector2( 123, 139 )

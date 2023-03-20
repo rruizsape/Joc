@@ -56,4 +56,4 @@ scale = Vector2( 0.297, 0.289 )
 
 [node name="Personatge" parent="." instance=ExtResource( 2 )]
 position = Vector2( 213, 209 )
-scale = Vector2( 0.456, 0.452 )
+scale = Vector2( 0.5, 0.5 )
